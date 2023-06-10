@@ -1,0 +1,19 @@
+module Achievements
+{
+    imports
+    {
+        Base, farming
+    }
+
+
+    item Badge
+    {
+        Type = Normal,
+        /*DisplayName = Achievements Badge,*//*hidden*/
+        Icon = badge,
+        Weight = 0.0,
+        Tooltip = "Description Here",
+        ResizeWorldIcon = 1.0,
+    }
+
+}
